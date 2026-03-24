@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MetaCher — Book</title>
+  <link rel="stylesheet" href="book.css">
+</head>
+<body>
+
+  <header>
+    <span class="site-name">MetaCher</span>
+    <nav>
+      <a href="information.html">Information</a>,
+      <a href="index.html">Scroll</a>,
+      <a href="book.html" class="active">Book</a>
+    </nav>
+  </header>
+
+  <div class="book-wrapper">
+    <div class="book" id="book">
+
+      <!-- Leaf 0: Cover → Page 1 -->
+      <div class="leaf">
+        <div class="page front cover">
+          <div class="cover-content">
+            <h1>MetaCher</h1>
+            <p>Artist Portfolio</p>
+          </div>
+        </div>
+        <div class="page back">
+          <img src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=900&q=80" alt="">
+        </div>
+      </div>
+
+      <!-- Leaf 1 -->
+      <div class="leaf">
+        <div class="page front">
+          <img src="https://images.unsplash.com/photo-1536924940846-227afb31e2a5?w=900&q=80" alt="">
+        </div>
+        <div class="page back">
+          <img src="https://images.unsplash.com/photo-1551913902-c92207136625?w=900&q=80" alt="">
+        </div>
+      </div>
+
+      <!-- Leaf 2 -->
+      <div class="leaf">
+        <div class="page front">
+          <img src="https://images.unsplash.com/photo-1549490349-8643362247b5?w=900&q=80" alt="">
+        </div>
+        <div class="page back">
+          <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=900&q=80" alt="">
+        </div>
+      </div>
+
+      <!-- Leaf 3 -->
+      <div class="leaf">
+        <div class="page front">
+          <img src="https://images.unsplash.com/photo-1543857778-c4a1a3e0b2eb?w=900&q=80" alt="">
+        </div>
+        <div class="page back">
+          <img src="https://images.unsplash.com/photo-1520587964826-4f7579a9a040?w=900&q=80" alt="">
+        </div>
+      </div>
+
+      <!-- Leaf 4 -->
+      <div class="leaf">
+        <div class="page front">
+          <img src="https://images.unsplash.com/photo-1482160549825-59d1b23cb208?w=900&q=80" alt="">
+        </div>
+        <div class="page back">
+          <img src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=900&q=80" alt="">
+        </div>
+      </div>
+
+      <!-- Leaf 5 -->
+      <div class="leaf">
+        <div class="page front">
+          <img src="https://images.unsplash.com/photo-1494005612480-90f50fd9376f?w=900&q=80" alt="">
+        </div>
+        <div class="page back">
+          <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=900&q=80" alt="">
+        </div>
+      </div>
+
+      <!-- Leaf 6 -->
+      <div class="leaf">
+        <div class="page front">
+          <img src="https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=900&q=80" alt="">
+        </div>
+        <div class="page back">
+          <img src="https://images.unsplash.com/photo-1577083552431-6e5fd01988ec?w=900&q=80" alt="">
+        </div>
+      </div>
+
+      <!-- Leaf 7: Last page → Back cover -->
+      <div class="leaf">
+        <div class="page front">
+          <img src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=900&q=80" alt="">
+        </div>
+        <div class="page back cover">
+          <div class="cover-content">
+            <p>End</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <div class="nav-bar">
+    <button id="prevBtn" class="nav-btn">&larr; Prev</button>
+    <span class="page-indicator" id="pageIndicator">Cover</span>
+    <button id="nextBtn" class="nav-btn">Next &rarr;</button>
+  </div>
+
+  <script src="book.js"></script>
+</body>
+</html>
